@@ -1,0 +1,36 @@
+html {
+
+}
+
+body {
+	background-color: #123456;
+	color: #ffffff
+}
+
+#popUpTime {
+	display: none;
+}
+
+.binClock {
+	background-color: #123456;
+	border: 1px solid #ffffff;
+	border-radius: 20px;
+	display: table-cell;
+	padding: 20px;
+}
+
+.hours, .minutes, .seconds {
+	display: inline-table;
+}
+
+.container {
+	display: table;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	margin: 60px auto;
+}
+
+.row {
+	display: table-row;
+}
